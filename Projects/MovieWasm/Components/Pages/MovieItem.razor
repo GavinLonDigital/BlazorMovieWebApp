@@ -1,0 +1,21 @@
+<div class="col-md-3 mb-2">
+    <a href="/MovieReview/@Movie?.Id" style="text-decoration:none">
+        <img class="img-thumbnail" src="@Movie?.ImageUrl">
+        <div class="card-body">
+            <h5>
+                @Movie?.Title
+            </h5>
+            <p class="card-text">
+                <b>@Movie?.Description</b>
+            </p>
+        </div>
+
+    </a>
+
+</div>
+
+
+@code {
+    [Parameter]
+    public MovieRecord? Movie { get; set; }
+}

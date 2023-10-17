@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MovieWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MovieWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\Godfather.png",
+      "PackagePath": "staticwebassets\\images\\movies\\Godfather.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\Highlander.png",
+      "PackagePath": "staticwebassets\\images\\movies\\Highlander.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\Highlander2.png",
+      "PackagePath": "staticwebassets\\images\\movies\\Highlander2.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\LastOfTheMohicans.png",
+      "PackagePath": "staticwebassets\\images\\movies\\LastOfTheMohicans.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\PoliceAcademy6.png",
+      "PackagePath": "staticwebassets\\images\\movies\\PoliceAcademy6.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\RearWindow.png",
+      "PackagePath": "staticwebassets\\images\\movies\\RearWindow.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\RoadHouse.png",
+      "PackagePath": "staticwebassets\\images\\movies\\RoadHouse.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\Shawshank.png",
+      "PackagePath": "staticwebassets\\images\\movies\\Shawshank.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\StarTreck4.png",
+      "PackagePath": "staticwebassets\\images\\movies\\StarTreck4.png"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWeb\\wwwroot\\images\\movies\\Superman4.png",
+      "PackagePath": "staticwebassets\\images\\movies\\Superman4.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MovieWeb.props",
+      "PackagePath": "build\\MovieWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieWeb.props",
+      "PackagePath": "buildMultiTargeting\\MovieWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MovieWeb.props",
+      "PackagePath": "buildTransitive\\MovieWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

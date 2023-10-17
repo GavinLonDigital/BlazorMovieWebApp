@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWasm\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWasm\\obj\\Debug\\net8.0\\compressed\\07uc9na1e3.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\source\\BlazorMovieWebApp\\projects\\MovieWasm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MovieWasm.styles.css",
+      "PackagePath": "staticwebassets\\MovieWasm.styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieWasm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MovieWasm.props",
+      "PackagePath": "build\\MovieWasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieWasm.props",
+      "PackagePath": "buildMultiTargeting\\MovieWasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MovieWasm.props",
+      "PackagePath": "buildTransitive\\MovieWasm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

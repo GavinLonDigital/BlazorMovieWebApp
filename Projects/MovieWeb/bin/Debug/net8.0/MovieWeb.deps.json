@@ -1,0 +1,373 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MovieWeb/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.0-rc.2.23480.2",
+          "MovieWasm": "1.0.0"
+        },
+        "runtime": {
+          "MovieWeb.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/8.0.0-rc.2.23480.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "8.0.0-rc.2.23480.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Options": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.AspNetCore.Components/8.0.0-rc.2.23480.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "8.0.0-rc.2.23480.2",
+          "Microsoft.AspNetCore.Components.Analyzers": "8.0.0-rc.2.23480.2"
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/8.0.0-rc.2.23480.2": {},
+      "Microsoft.AspNetCore.Components.Forms/8.0.0-rc.2.23480.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.0-rc.2.23480.2"
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/8.0.0-rc.2.23480.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.0-rc.2.23480.2",
+          "Microsoft.AspNetCore.Components.Forms": "8.0.0-rc.2.23480.2",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6",
+          "Microsoft.JSInterop": "8.0.0-rc.2.23480.2",
+          "System.IO.Pipelines": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly/8.0.0-rc.2.23480.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0-rc.2.23480.2",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Logging": "8.0.0-rc.2.23479.6",
+          "Microsoft.JSInterop.WebAssembly": "8.0.0-rc.2.23480.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.48002"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/8.0.0-rc.2.23480.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.48002"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/8.0.0-rc.2.23480.2": {},
+      "Microsoft.Extensions.Configuration/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0-rc.2.23479.6",
+          "System.Text.Json": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0-rc.2.23479.6": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.FileSystemGlobbing": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/8.0.0-rc.2.23479.6": {},
+      "Microsoft.Extensions.Logging/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Options": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-rc.2.23479.6",
+          "Microsoft.Extensions.Primitives": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0-rc.2.23479.6": {},
+      "Microsoft.JSInterop/8.0.0-rc.2.23480.2": {},
+      "Microsoft.JSInterop.WebAssembly/8.0.0-rc.2.23480.2": {
+        "dependencies": {
+          "Microsoft.JSInterop": "8.0.0-rc.2.23480.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.48002"
+          }
+        }
+      },
+      "System.IO.Pipelines/8.0.0-rc.2.23479.6": {},
+      "System.Text.Encodings.Web/8.0.0-rc.2.23479.6": {},
+      "System.Text.Json/8.0.0-rc.2.23479.6": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "MovieWasm/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.0-rc.2.23480.2"
+        },
+        "runtime": {
+          "MovieWasm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authorization/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xAOAdtdIVpNzwI5kOyTPIQQ+ju3UyQQ6bcNmikE3829D0C/lz3sjLVg0hd8wkCMQlPJB2XMKtFDvbO95w9QaoQ==",
+      "path": "microsoft.aspnetcore.authorization/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.authorization.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4jf+GHRs364/1uNYbf2l6CqV3oQZKlfLNj/H+6x8dOyb58Q7Ubu0Nskh5OCN9b3sf9A28IVZjpdiQQcjt/JQ7Q==",
+      "path": "microsoft.aspnetcore.components/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.components.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PmiE8RAInFD9E58WgxJYvRxcGUnPWAdkUKfR+gMVV5a6Xa9v1qoSOrQcsXHOc8z8wHqFvkXNruN6pLfdAJWUOA==",
+      "path": "microsoft.aspnetcore.components.analyzers/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Forms/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DnOJ+JfZHEKvriwOd8bydftp71C7W2yvZwkHnqh8O6b/RtBfVDimYZvCvriCdq1ol6odlIMzOq5CEaWi2mlkkQ==",
+      "path": "microsoft.aspnetcore.components.forms/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.components.forms.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Web/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mk1wFk0gHOWuXG6g5ToBGm5aoBs0T9eoa1IKshHrfRi3/LwUi9McGR9p/iIOqjOgzy/VPyxQ0SbUkOXTsdY6mA==",
+      "path": "microsoft.aspnetcore.components.web/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.components.web.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mb3kMf4SW6k4Jv3S6fJtu94nuHGNETSXUR+LdRFiduzoZI3FLXrPNqEWgECPZJDQbzlvwdHoB7hjgOLxnQQjfw==",
+      "path": "microsoft.aspnetcore.components.webassembly/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wp0NJh07MecBUGayCsihWxs9pNiKI1cnE4Ku83TRYAG4J47njozIwGVQy5hcK4qb7tBd8o9WT4db+Aa6BbTzqQ==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CSiTQrFAevRGJ4R9FRVppDz9Ms4uFHMU9cVhmg7UByaMz5+qGOgr1aTw2deHOdXr1bkIdnn0zFHefoKbbXT8Fw==",
+      "path": "microsoft.aspnetcore.metadata/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.aspnetcore.metadata.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EKodZ6NQYChCzAXCv4862OsVQcXM50vr0reWrtsmlv3vFyAvGOmqkbQyn4Gd07f4LJLkTSOCeWhpazzztSBHuA==",
+      "path": "microsoft.extensions.configuration/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.configuration.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l9dJA7vNLJtSwg0J3ThUA47YZiRVQIIhCyMMNu/wJ0KOawdMmbrzJnKfd1sioZp0JzT+1IjiVaUZWK0t47pPOQ==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PCaxgxWQQ9Tp7s2ZGQ5gGgHJrZvof7Cx4ZYXACNGjSJqZy1fHLBGY9swBAF3EiYiZaT3Gi1n5ULcg4zBDyBQ8g==",
+      "path": "microsoft.extensions.configuration.binder/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.configuration.binder.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uO2QayG/1D7CwnQ7hV6+/gYlLETsveiQGalWsIzkNjuh0AnEd0YhOaPah1cl9PvETisoWritbbQ6X4vle3P5BA==",
+      "path": "microsoft.extensions.configuration.fileextensions/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-REfn7SU7wZ3DsArmkT4w14NSJMyNRyFebDYG46bSRiHw/DiTwse1l0kyVnM3h/7Uo+jRZjJZontjHgaVno2Z0g==",
+      "path": "microsoft.extensions.configuration.json/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.configuration.json.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pUD/Gjd0MTrWPD4/SnKazYQvky2EHEtPyGb3FWZkEPWAfYPFVVw5fMRTkfoBPivpWLuxEw4FNK7GX77xEErUQQ==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QLTBDvE/E05Xl2UVFXOBFIW0VLn/mMJ8DSbTyK6ODsO3sqDs0fyPqydACTnX/nbGZRrTMeud3XDbUrt24ab1EA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o7G1lHK9/gXYyVNh6AuUC5sCM6sWWbH1fgBlsju6ZSgG5dfrEQKJPxO7pTJNA2AGhjw7hi9MnuexbaBUg1gakg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3UbcAzy97e6CapSOUW/xrExkQM9fE1MYP0mOMObEJFm9KiWqg8FLZ02A2gJR6nEF2mKxUlKpY8c8QQvpLjensw==",
+      "path": "microsoft.extensions.fileproviders.physical/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.fileproviders.physical.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y30EujGJNab4f0+cSd37Tei6PhSyL+dcjXYn9tZhd3+WhJYK1Rlo1fRAwtN1jYzQiKnKVUKdCzidaJwdpJyKuA==",
+      "path": "microsoft.extensions.filesystemglobbing/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.filesystemglobbing.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EqCB9QQYUHUVklT1Us38PuiHNIAbYHVnAvPEpR8VSBbiCa1GUIOdW+zLR8Cvb9XtjDkirVA+eH84z0ktikPw5Q==",
+      "path": "microsoft.extensions.logging/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.logging.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xuQcOpvz76nTYytCf9HrHGCbMq/PU/ZGSkhX/grDBfWHZ1gjz38hDjrYn4NMr5DnndNtou4yn6tR5q0hjCr9pw==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f2uTnKEleplKK+pVKEg1rOCmM3+cuLpafTpKJzbj9lm8dmj0+dWxb0L6MAt9r1s3OYlIKY5IdkW0TUFKXvRCMg==",
+      "path": "microsoft.extensions.options/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.options.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3fTiDmV+2cCR3VjH+oz49AMgrAqX1cmNiWXmEAituAI7jCLA16uXzvYQTwxhQzov5BTdPVXKGNTxsMb1GpcLQ==",
+      "path": "microsoft.extensions.primitives/8.0.0-rc.2.23479.6",
+      "hashPath": "microsoft.extensions.primitives.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.JSInterop/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M79UbenuwsdheBK/oH+muTZwfVlmTjRH0P8+a7BjYWqha3n6VUBslWfe1K72eOU7hrwFuLkFU/1pXtZ35UBbpA==",
+      "path": "microsoft.jsinterop/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.jsinterop.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.JSInterop.WebAssembly/8.0.0-rc.2.23480.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mAJQWdBBD0BGkfNLxw8hJB5NrYRkDAMfAPVzJ49VWnOKV3Xr0JIzkYX3onDqcSzHk5rqBuOWvuZaf9Gr8emwAA==",
+      "path": "microsoft.jsinterop.webassembly/8.0.0-rc.2.23480.2",
+      "hashPath": "microsoft.jsinterop.webassembly.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "System.IO.Pipelines/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4bqn2Kj0keumJ0x3wdZtO1Ex/5Ppu01fP7Rtmn1uJBR08WWRKeKSX6U9a/BiEieE9JjhzapvhjPtFypE7ZIAyQ==",
+      "path": "system.io.pipelines/8.0.0-rc.2.23479.6",
+      "hashPath": "system.io.pipelines.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n66ZIJjetmrMq9hJ61Xed2cp9O2zr/VdzhhURjkLDEFOZ38/VpOWnvM3CWCXA18NbM7x0tdKZYex9rj0NimpPA==",
+      "path": "system.text.encodings.web/8.0.0-rc.2.23479.6",
+      "hashPath": "system.text.encodings.web.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.0-rc.2.23479.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SXMjrmm/e0Om+731AEUgm+81dC+i9mV54nKJGOq9+zTYpzujMCmSQSMS1sgQb0gmiiAfTfRC5WgD3l92cfAP+g==",
+      "path": "system.text.json/8.0.0-rc.2.23479.6",
+      "hashPath": "system.text.json.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "MovieWasm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

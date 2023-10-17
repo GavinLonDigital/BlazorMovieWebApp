@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "joGjrr4u3YX/LtAzrlEHuwMB5zK5KKZmzahFp2miMZYgwIQwPmIYGF8W7+jdmohDMSQm4n6x7JVBIZCBaiWHAA==",
+  "success": true,
+  "projectFilePath": "C:\\source\\BlazorMovieWebApp\\Projects\\MovieWeb\\MovieWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.authorization.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.analyzers.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.forms.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.web.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.webassembly.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.components.webassembly.server.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.metadata.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.binder.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.fileextensions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.json.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-rc.2.23479.6\\microsoft.extensions.dependencyinjection.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.fileproviders.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0-rc.2.23479.6\\microsoft.extensions.fileproviders.physical.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0-rc.2.23479.6\\microsoft.extensions.filesystemglobbing.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-rc.2.23479.6\\microsoft.extensions.logging.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.logging.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-rc.2.23479.6\\microsoft.extensions.options.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-rc.2.23479.6\\microsoft.extensions.primitives.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.jsinterop\\8.0.0-rc.2.23480.2\\microsoft.jsinterop.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.0-rc.2.23480.2\\microsoft.jsinterop.webassembly.8.0.0-rc.2.23480.2.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\system.io.pipelines\\8.0.0-rc.2.23479.6\\system.io.pipelines.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\system.text.encodings.web\\8.0.0-rc.2.23479.6\\system.text.encodings.web.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\system.text.json\\8.0.0-rc.2.23479.6\\system.text.json.8.0.0-rc.2.23479.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "MovieWeb depends on Microsoft.AspNetCore.Components.WebAssembly.Server (>= 8.0.0-rc.2) but Microsoft.AspNetCore.Components.WebAssembly.Server 8.0.0-rc.2 was not found. An approximate best match of Microsoft.AspNetCore.Components.WebAssembly.Server 8.0.0-rc.2.23480.2 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+@page "/MovieReview/{id:int}"
+
+<Review @rendermode = "RenderMode.InteractiveWebAssembly" Id = "@Id" />
+
+@code{
+    [Parameter]
+    public int Id{get;set;}
+}

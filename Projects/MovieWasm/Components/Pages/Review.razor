@@ -1,0 +1,38 @@
+@inject HttpClient Http
+
+<h3>Movie Review for @MovieItem?.Title</h3>
+
+@if(MovieItem == null)
+{
+    <h3>Loading...</h3>
+}
+else
+{
+    <div class="row">
+        <div class="col-6">
+            <img style="width:100%" src="@MovieItem?.ImageUrl" alt="@MovieItem?.Title" />
+        </div>
+        <div class="col-6">
+            @MovieItem?.Review
+        </div>
+
+    </div>
+}
+
+
+@code {
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private MovieRecord? MovieItem { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1000);
+    
+        MovieItem = await Http.GetFromJsonAsync<MovieRecord>($"/movies/{Id}");
+
+    }
+
+}
